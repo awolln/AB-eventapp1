@@ -9,6 +9,8 @@ const Event = ({ item }) => {
         <li>
             <span className="Event">{item.event}</span>
             <span className="Time">{item.time}</span>
+            <span className="Date">{item.time}</span>
+            
             <span className="Action" onClick={() => deleteEvent(item.id)}>&#10007;</span>
         </li>
     );
